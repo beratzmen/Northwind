@@ -16,6 +16,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Northwind.IISHost", "Northwind.IISHost\", "{33B2355C-1323-484C-9F1F-6263D2361F0C}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{ca55a5df-32f1-4b6b-8bfb-eaf5d4d0c218}|Northwind.WcfLibrary.dll;{94628E60-0232-4637-A383-7EFF9BEB874E}|Northwind.Bll.dll;{2286D6A5-CCFB-4F90-BF18-4993991FEC31}|Northwind.Dal.dll;{2DA6C59E-E6C5-472E-93CC-A1481AFAE647}|Northwind.Entities.dll;{87452766-4F65-4EF0-B44D-4BB06F9BB3B7}|Northwind.Interfaces.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_53079"
 		Debug.AspNetCompiler.PhysicalPath = "Northwind.IISHost\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53079\"
