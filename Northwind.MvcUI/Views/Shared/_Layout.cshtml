@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-grid.min.css" rel="stylesheet" />
+</head>
+<body>
+
+
+
+
+
+    <div class="card-header">
+        <div class="row">
+            Menüler
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                @RenderBody()
+            </div>
+            Kategoriler
+        </div>
+    </div>
+
+
+
+
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <script src="~/scripts/bootstrap.bundle.min.js"></script>
+</body>
+</html>
